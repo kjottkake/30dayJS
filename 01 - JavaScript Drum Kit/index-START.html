@@ -58,7 +58,20 @@
   <audio data-key="76" src="sounds/tink.wav"></audio>
 
 <script>
-
+//user presses button
+  //e for event
+  window.addEventListener('keydown', function(e){
+    // console.log(e.keyCode)
+    const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+    console.log("audio: " + audio);
+    if (!audio) return;
+    audio.currentTime = 0;
+    audio.play();
+  })  
+  //checks for button
+    //plays sound
+//if user not pressing button
+  // don't do anything
 </script>
 
 
