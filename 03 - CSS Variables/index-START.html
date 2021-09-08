@@ -19,6 +19,9 @@
 
     <label for="border">Border Radius</label>
     <input id="border" type="range" name="border" min="0" max="25" value="10" data-sizing="px">
+
+    <label for="opacity">Opacity</label>
+    <input id="opacity" type="range" name="opacity" min="0" max="25" value="25" data-sizing="0.1">
   </div>
 
   <img src="https://source.unsplash.com/IbrSR6gBaqI/800x500">
@@ -33,6 +36,7 @@
       --spacing: 10px;
       --blur: 10px;
       --border: 10px;
+      --opacity: 0.0;
     }
 
     img {
@@ -40,6 +44,7 @@
       background: var(--base);
       filter: blur(var(--blur));
       border-radius: var(--border);
+      opacity: var(--opacity);
     }
 
     .h1 {
