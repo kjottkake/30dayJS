@@ -17,8 +17,8 @@
     <label for="base">Base Color</label>
     <input id="base" type="color" name="base" value="#ffc600">
 
-    <label for="base">Base Color</label>
-    <input id="base" type="color" name="base" value="#ffc600">
+    <label for="border">Border Radius</label>
+    <input id="border" type="range" name="border" min="0" max="25" value="10" data-sizing="px">
   </div>
 
   <img src="https://source.unsplash.com/IbrSR6gBaqI/800x500">
@@ -32,12 +32,14 @@
       --base: #ffc600;
       --spacing: 10px;
       --blur: 10px;
+      --border: 10px;
     }
 
     img {
       padding: var(--spacing);
       background: var(--base);
       filter: blur(var(--blur));
+      border-radius: var(--border);
     }
 
     .h1 {
