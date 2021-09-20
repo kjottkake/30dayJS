@@ -10,7 +10,7 @@
 
   <script>
     const dogs = [{ name: 'Snickers', age: 2 }, { name: 'hugo', age: 8 }];
-
+    const message = "this particular message."
     function makeGreen() {
       const p = document.querySelector('p');
       p.style.color = '#BADA55';
@@ -21,6 +21,7 @@
     console.log("Hello");
     // Interpolated
     console.log("This is interpolating %s to this message", "🥰");
+    console.log(`This is using the es6 backticks to add ${message}`)
     // Styled
 
     // warning!
