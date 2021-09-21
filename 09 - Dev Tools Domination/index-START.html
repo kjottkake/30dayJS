@@ -25,23 +25,44 @@
     // Styled
     console.log('%c I am some text value.', 'font-size: 20px; background:red')
     // warning!
-
+    console.warn("oh shit something went wrong!");
     // Error :|
-
+    console.error("ALL YOUR BASE ARE BELONG TO US.");
     // Info
-
+    console.info('Crocodiles eat 3-4 people per year'); //lol
     // Testing
+    console.assert( 1 === 1, "nothing will happen")
 
+    console.assert( 1 ===2, "Message is displayed as the asserted statement is false!")
+    
+    const p = document.querySelector('p');
+
+    console.assert(p.classList.contains('ouch'), 'That is wrong!');
     // clearing
-
+    //console.clear(); //if you wanna mess with developers just put this at the bottom of your code.
+    
     // Viewing DOM Elements
-
+    // console.dir(p);
+    
     // Grouping together
-
+    dogs.forEach(dog => {
+      // console.groupCollapsed(`${dog.name}`); //collapsed view by default.
+      console.group(`${dog.name}`);
+      console.log(`This is ${dog.name}`);
+      console.log(`${dog.name} is ${dog.age} years old`);
+      console.groupEnd(`${dog.name}`);
+    });
     // counting
 
     // timing
-
+    console.time('fetching data');
+    fetch('https://api.github.com/users/kjottkake')
+      .then(data => data.json())
+      .then(data => {
+        console.timeEnd('fetching data');
+        console.log(data);
+      });
+    
   </script>
 </body>
 </html>
