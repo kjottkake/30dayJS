@@ -56,23 +56,31 @@ This makes a simple call to an endpoint which returns some json data. The user i
 
 <b> What I learned?</b>
 
-es6 Spread functions. 
+es6 Spread functions. This is the first time I used console.table() as well, super useful.
 
 <b> Future Improvements</b>
 
 Will have to implement this in my own project calling on some API, perhaps a weather app.
 
-# Day 7
+# Day 7 Array Cardio Day 2
 <b> What is it?</b>
 <b> What I learned?</b>
 <b> Future Improvements</b>
 
-# Day 8
+# Day 8 HTML5 Canvas
 <b> What is it?</b>
+
+A simple drawing board. This is a simple implementation of the HTML 5 Canvas.
+
 <b> What I learned?</b>
+
+ctx refers to the context or what is being drawing on. It was nice to see this concept used in web browsers and drawing on a 2d canvas. 3D canvases are also an option with html.
+
 <b> Future Improvements</b>
 
-# Day 9
+More colors and functionalities.
+
+# Day 9 Dev Tools
 <b> What is it?</b>
 <b> What I learned?</b>
 <b> Future Improvements</b>
