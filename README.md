@@ -13,11 +13,14 @@ I will need to add in animations for the feedback of the keys.
 
 # Day 2 Analog Clock 
 <b> What is it?</b>
+
 I made an analog clock which displays the current time. 
 
 <b> What I learned?</b>
+
 You can transform individual style of elements with Javascript selectors.
 
 <b> Future Improvements</b>
+
 As of right now there is currently a bug which makes the secondHand glitch for a split second before resetting at 12 O 'clock when passing the 12 O' clock position. This is due to the animation calculations resetting improperly. There is a fix for this in the tutorials however it's a fairly hacky fix. 
 
