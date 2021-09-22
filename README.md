@@ -85,7 +85,7 @@ More colors and functionalities.
 <b> What I learned?</b>
 <b> Future Improvements</b>
 
-# Day 10
+# Day 10 Hold Shift to Check Multiple Checkboxes
 <b> What is it?</b>
 <b> What I learned?</b>
 <b> Future Improvements</b>
@@ -95,7 +95,7 @@ More colors and functionalities.
 <b> What I learned?</b>
 <b> Future Improvements</b>
 
-# Day 12
+# Day 12 KONAMI code detection
 <b> What is it?</b>
 <b> What I learned?</b>
 <b> Future Improvements</b>
