@@ -37,19 +37,30 @@ As of right now there is currently a bug which makes the secondHand glitch for a
 <b> What I learned?</b>
 <b> Future Improvements</b>
 
-# Day 5
+# Day 5 Flex Panel Gallery
 <b> What is it?</b>
 
 This is practicing various flex details and some simple flex animations.
+
 <b> What I learned?</b>
 
 
 <b> Future Improvements</b>
 
-# Day 6
+Some more cooler animations and my version of this particular project.
+
+# Day 6 Type Ahead
 <b> What is it?</b>
+
+This makes a simple call to an endpoint which returns some json data. The user is able to get some data based on the city.
+
 <b> What I learned?</b>
+
+es6 Spread functions. 
+
 <b> Future Improvements</b>
+
+Will have to implement this in my own project calling on some API, perhaps a weather app.
 
 # Day 7
 <b> What is it?</b>
