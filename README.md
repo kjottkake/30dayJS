@@ -97,6 +97,8 @@ More colors and functionalities.
 
 # Day 12 KONAMI code detection
 <b> What is it?</b>
+
+When the user inputs a certain key combination, something happens. Inspired by the Konami code.
 <b> What I learned?</b>
 <b> Future Improvements</b>
 
